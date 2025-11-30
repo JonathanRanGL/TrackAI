@@ -9,7 +9,7 @@ mp_face_mesh = mp.solutions.face_mesh
 # Configurar la captura de video
 # IMPORTANTE: Si tienes DroidCam, prueba con index 0, 1 o 2 hasta que salga imagen.
 # 0 suele ser la webcam integrada, 1 suele ser DroidCam si tienes otra cámara conectada.
-cap = cv2.VideoCapture(0) # <--- CAMBIA ESTE NÚMERO SI NO ABRE LA CÁMARA
+cap = cv2.VideoCapture(1) # <--- CAMBIA ESTE NÚMERO SI NO ABRE LA CÁMARA
 
 print("Iniciando prueba de cámara... Presiona 'ESC' para salir.")
 
